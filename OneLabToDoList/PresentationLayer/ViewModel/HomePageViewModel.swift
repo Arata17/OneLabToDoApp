@@ -9,7 +9,6 @@ import Foundation
 
 final class HomePageViewModel {
     
-    
     var categoryArray = [Category]()
     
     func createNewCategory(name: String) {

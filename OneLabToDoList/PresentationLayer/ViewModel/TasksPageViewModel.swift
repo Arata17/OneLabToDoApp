@@ -33,7 +33,6 @@ final class TasksPageViewModel {
         
         self.timer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { (timer) in
                 self.timerCount += 1
-            print(self.timerCount)
                 if self.timerCount == 5 {
                     timer.invalidate()
                     self.timerCount = 0
